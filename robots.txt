@@ -1,0 +1,14 @@
+User-agent: *
+
+
+Disallow: /README.md
+Disallow: /CNAME
+Disallow: /lib/
+
+Disallow: /blog/css/
+Disallow: /blog/images/
+Disallow: /blog/js/
+Disallow: /blog/lib/
+Disallow: /blog/search.xml
+
+Allow: /
