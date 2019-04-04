@@ -1835,7 +1835,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f9ff8b;
+  background: #1fd220;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2909,6 +2909,9 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+*::selection {
+  background: #72cc96;
 }
 body {
   background: url("https://goujianwen.com/lib/images/backgroundofblog.jpg");
