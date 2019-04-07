@@ -78,18 +78,18 @@ html,body {
 
 body {
 	font-family: "weblysleek_uilight",sans-serif;
-	color: #2c2d33;
+	color: #222222;
 	background: #fff
 }
 
 a {
-	color: #2c2d33;
+	color: #222222;
 	outline: 0;
 	text-decoration: none
 }
 
 a:hover,a:active,a:focus,a:visited {
-	color: #2c2d33
+	color: #222222
 }
 
 a img {
@@ -334,7 +334,7 @@ canvas {
 }
 
 .main-info ul li:nth-child(odd),.introduce ul li:nth-child(odd) {
-	background: #2c2d33
+	background: #222222
 }
 
 .main-info ul li:last-child,.introduce ul li:last-child {
@@ -432,7 +432,7 @@ canvas {
 
 .project-overlay {
 	position: fixed;
-	background: #2c2d33;
+	background: #222222;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -454,9 +454,9 @@ canvas {
 .projects-menu>li {
 	display: inline-block;
 	width: calc(100%/3);
-	background: #fff;
+	background: #222222;
 	height: 50%;
-	border: 5px solid #fff;
+	border: 5px solid #222222;
 	position: relative;
 	vertical-align: top;
 	float: left;
