@@ -454,9 +454,9 @@ canvas {
 .projects-menu>li {
 	display: inline-block;
 	width: calc(100%/3);
-	background: #2c2d33;
+	background: #fff;
 	height: 50%;
-	border: 5px solid #2c2d33;
+	border: 5px solid #fff;
 	position: relative;
 	vertical-align: top;
 	float: left;
