@@ -33,12 +33,12 @@ html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,a,img,i,ul,li,canvas {
 
 ::selection {
 	color: #fff;
-	background: #4dbe7a
+	background: #72cc96
 }
 
 ::-moz-selection {
 	color: #fff;
-	background: #4dbe7a
+	background: #72cc96
 }
 
 canvas {
@@ -583,10 +583,6 @@ canvas {
 		width: 50%!important;
 		height: 50%!important;
 		float: left
-	}
-
-	.share-buttons span {
-		display: none
 	}
 }
 
