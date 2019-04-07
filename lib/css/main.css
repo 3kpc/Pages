@@ -426,7 +426,7 @@ canvas {
 }
 
 .block-left,.block-404 {
-	background: linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9)),url(https://Goujianwen.com/lib/images/background.jpg) no-repeat;
+	background: linear-gradient(rgba(44, 45, 51, 0.9),rgba(44, 45, 51, 0.9)),url(https://Goujianwen.com/lib/images/background.jpg) no-repeat;
 	background-size: cover
 }
 
