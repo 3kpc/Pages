@@ -26,7 +26,7 @@
     <link rel="mask-icon" href="https://Goujianwen.com/lib/images/apple-touch-icon.png" color="#222">
     <!-- CSS --> 
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://Goujianwen.com/lib/css/main.min.css"> 
+    <link rel="stylesheet" href="https://Goujianwen.comlib/css/main.min.css"> 
 </head> 
 <body id="homepage"> 
     <div class="block-left"> 
@@ -72,7 +72,7 @@
         <div class="navbar">
             <div class="nav-item">
                 <div class="nav-item-icon">
-                    <a href="https://Goujianwen.com/more">
+                    <a title="MORE" class="more-menu-icon">
                         <i class="fa fa-fw fa-ellipsis-h"></i>
                     </a>
                 </div>
@@ -82,40 +82,114 @@
             </div>
             <div class="nav-item">
                 <div class="nav-item-icon">
-                    <a href="https://Goujianwen.com/">
+                    <a title="BLOG" href="https://Goujianwen.com/blog">
                         <i class="fa fa-fw fa-file-text-o"></i>
-                    </a>
-                </div>
-                <div class="nav-item-link">
-                    PROJ
-                </div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-icon">
-                    <a href="https://Goujianwen.com/blog">
-                        <i class="fa fa-fw fa-book"></i>
                     </a>
                 </div>
                 <div class="nav-item-link">
                     BLOG
                 </div>
             </div>
+            <div class="nav-item">
+                <div class="nav-item-icon">
+                    <a title="PROJECT" class="projects-menu-icon">
+                        <i class="fa fa-fw fa-book"></i>
+                    </a>
+                </div>
+                <div class="nav-item-link">
+                    PROJ
+                </div>
+            </div>
         </div>
         
         <div class="content"> 
             <div class="introduce"> 
-                <h1 id="introduce-title">Goujianwen</h1> 
+                <h1 id="introduce-title">About Pages</h1> 
                 <p>Welcome to Goujianwen's Pages.</p> 
-                <p>Follow your bliss and the universe will open doors for you where there were only walls.</p> 
+                <p>The glow of one warm thought is to me worth more than money.</p> 
 
                 <hr style="border-top:2px solid #72cc96"/>
-                
+        
                 <p>&copy; 2018&ndash;2019 <a href="https://goujianwen.com" style="color:#999;text-decoration:none;">Goujianwen.com</a><br>All Rights Reserved.</p>
             </div> 
         </div> 
     </div> 
+
+    <div class="project-overlay">
+        <ul class="projects-menu"> 
+            <li style="background:url(https://images.unsplash.com/photo-1554365228-f051bbfbcab0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554343344-d55d61b9ad49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554545416-f8bfd9f59149?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554355792-f6bf81df1cd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554392640-bb137c29377d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554369205-8b1de386d783?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554393655-60c763722dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+            <li style="background:url(https://images.unsplash.com/photo-1554310542-cb302ff71530?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center center no-repeat;"> 
+                <a class="inactive" target="_blank" rel="nofollow external"> 
+                    
+                </a> 
+            </li> 
+        </ul> 
+        <div class="overlay-back-navbar">
+            <div class="nav-item">
+                <div class="nav-item-icon">
+                    <a title="HOME" class="projects-menu-icon">
+                        <i class="fa fa-fw fa-home"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="more-overlay">
+        <div class="more-container">
+            <canvas id="moe" width="360" height="450"></canvas>
+        </div>
+        <div class="overlay-back-navbar">
+            <div class="nav-item">
+                <div class="nav-item-icon">
+                    <a title="HOME" class="more-menu-icon">
+                        <i class="fa fa-fw fa-home"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JS --> 
-    <script src="https://Goujianwen.com/lib/js/main.min.js"></script> 
-    <script src="https://Goujianwen.com/lib/js/canvas.js"></script>  
+    <script src="https://Goujianwen.comlib/js/jquery.min.js"></script>
+    <script src="https://Goujianwen.com/lib/js/canvas.js"></script>
+    <script src="https://Goujianwen.comlib/js/main.min.js"></script> 
+    <script src="https://Goujianwen.com/lib/live2d/moe/l2d.js"></script>
+    <script>
+        loadlive2d("moe","https://Goujianwen.com/lib/live2d/moe/model.json")
+    </script>
 </body>
 </html>
