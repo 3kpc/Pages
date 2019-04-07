@@ -197,34 +197,6 @@ canvas {
 	width: 100%;
 	text-align: right
 }
-.more-overlay{
-	position: fixed;
-	background: #fff;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 1;
-	display: none;
-	overflow-y: auto
-}
-
-.more-overlay.show {
-	display: block
-}
-
-.more-container{
-	position:absolute;
-	width: 360px;
-	height: 450px;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-	-moz-transform:translate(-50%,-50%);
-	-webkit-transform:translate(-50%,-50%);
-	-o-transform:translate(-50%,-50%);
-}
 
 .overlay-back-navbar {
 	position: fixed
@@ -261,10 +233,6 @@ canvas {
 }
 
 .projects-menu-icon {
-	cursor: pointer
-}
-
-.more-menu-icon {
 	cursor: pointer
 }
 
