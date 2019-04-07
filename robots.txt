@@ -4,8 +4,6 @@ User-agent: *
 Disallow: /README.md
 Disallow: /CNAME
 Disallow: /lib/
-Disallow: /resume.zh_CN.html
-Disallow: /resume.en_US.html
 
 Disallow: /blog/css/
 Disallow: /blog/images/
