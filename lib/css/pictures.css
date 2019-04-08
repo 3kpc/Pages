@@ -138,10 +138,6 @@ body {
 	height: 100%
 }
 
-.pic-bg {
-	background: center center no-repeat;
-}
-
 .pictures>li {
 	display: inline-block;
 	width: calc(100%/3);
