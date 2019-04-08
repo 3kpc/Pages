@@ -179,7 +179,7 @@ body {
 }
 
 
-.pictures>li:nth-child(10n+9),.pictures>li:nth-child(10n+10) {
+.pictures>li:nth-child(10n+9),.pictures>li:nth-child(10n) {
 	width: 50%;
 	height: 70%;
 }
