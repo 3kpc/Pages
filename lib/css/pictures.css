@@ -85,10 +85,6 @@ body {
 	text-align: right
 }
 
-.overlay-back-navbar {
-	position: fixed
-}
-
 .inactive {
 	pointer-events: none;
 	pointer: default
