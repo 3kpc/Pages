@@ -79,7 +79,7 @@ body {
 }
 
 .navbar {
-	position: absolute;
+	position: fixed;
 	top: 26px;
 	width: 100%;
 	text-align: right
