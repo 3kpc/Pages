@@ -12,20 +12,19 @@
     <!-- Open Graph --> 
     <meta property="og:locale" content="zh_CN"> 
     <meta property="og:type" content="article"> 
-    <meta property="og:title" content="Goujianwen.com | Index"> 
-    <meta property="og:url" content="https://Goujianwen.com"> 
-    <meta property="og:site_name" content="Goujianwen | Index"> 
+    <meta property="og:title" content="Goujianwen | Archives"> 
+    <meta property="og:url" content="https://Goujianwen.com/archives"> 
+    <meta property="og:site_name" content="Goujianwen's Pages"> 
     <meta property="og:image" content="https://Goujianwen.com/images/apple-touch-icon.png"> 
-    <title>Goujianwen | Index</title>
-    <meta name="description" content="Goujianwen | Pages, A personal website that shared some posts, design and others.">  
-    <link rel="canonical" href="https://Goujianwen.com">
+    <title>Goujianwen | Archives</title>
+    <meta name="description" content="Goujianwen | Archives">  
+    <link rel="canonical" href="https://Goujianwen.com/archives">
     <!-- Favicons --> 
     <link rel="apple-touch-icon" sizes="180x180" href="https://Goujianwen.com/lib/images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="https://Goujianwen.com/lib/images/favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://Goujianwen.com/lib/images/favicon-16x16.png">
     <link rel="mask-icon" href="https://Goujianwen.com/lib/images/apple-touch-icon.png" color="#4286f3">
-    <!-- CSS --> 
-    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
     <style>
         * {
             margin: 0;
@@ -41,10 +40,6 @@
             background-color: #fff;
             color: #222;
             font-size: 14px
-        }
-
-        a:hover {
-            color: #4286f3;
         }
 
         @media screen and (min-width:720px) {
@@ -84,7 +79,7 @@
         }
 
         #header {
-            margin-bottom: 1em;
+            margin-bottom: 2em;
             font-size: 1em
         }
 
@@ -105,18 +100,26 @@
         }
 
         #content {
-            margin-bottom: 1em;
-            color: #222
+            margin: 1em 0 2em 0;
+            border-top: #222 solid 1px;
+            border-bottom: #222 solid 1px;
+            padding: 1em 0;
+            text-align: left;
+            color: #222;
         }
 
-        .social-link {
-            padding: 0 .4em;
-            text-decoration: none;
-            font-size: 2em;
-            color: #888
+        #content>p {
+            font-size: 1.2em;
+            padding: 0.5em;
         }
 
-        #content>a:hover {
+        #content>p>a {
+            text-decoration-color: #4286f3;
+            color: #222;
+        }
+
+        #content>p>a:hover {
+            text-decoration-color: #222;
             color: #4286f3
         }
 
@@ -132,36 +135,26 @@
         #footer>a:hover {
             color: #4286f3;
         }
-
     </style>
-    <!-- JavaScript-->
-    <script src="https://Goujianwen.com/lib/live2d/moe/l2d.js"></script>
 </head> 
 <body>
     <div id="container">
-        <div id="midcen">
-            <canvas id="moe" width="240" height="300"></canvas>
-        </div>
         <div id="banner">
             <div id="header">
-                <a href="https://Goujianwen.com" title="Goujianwen">
-                    <span class="logo"><img class="logo-img" src="https://Goujianwen.com/lib/images/apple-touch-icon.png">Goujianwen</span>
+                <a href="https://Goujianwen.com/archives" title="Goujianwen | Archives">
+                    <span class="logo"><img class="logo-img" src="https://Goujianwen.com/lib/images/apple-touch-icon.png">Goujianwen | Archives</span>
                 </a>
             </div>
             <div id="content">
-                <a class="social-link" href="https://Goujianwen.com/blog" title="POSTS"><i class="fa fa-fw fa-file-text-o"></i></a>
-                <a class="social-link" rel="nofollow" target="_blank" href="https://GitHub.com/Goujianwen" title="Projects"><i class="fa fa-fw fa-code"></i></a>
-                <a class="social-link" href="https://Goujianwen.com/timeline" title="TimeLine"><i class="fa fa-fw fa-list-ul"></i></a>
-                <a class="social-link" href="https://Goujianwen.com/about" title="About"><i class="fa fa-fw fa-user-o"></i></a>
-                <a class="social-link" href="https://Goujianwen.com/more" title="more"><i class="fa fa-fw fa-ellipsis-h"></i></a>
+                <p>This is a archive about somethings that I used and remembered.</p>
+                <p>使用和铭记的存档文件及页面。</p>
+                <p style="text-align: center; color: #4286f3">Everything we think and feel is creating our future.</p>
+                <p style="font-size: 1em;">Powered by <a class="content-a" href="https://github.com" rel="nofollow" target="_blank">Github</a>. | Maintained by <a class="content-a" href="https://Goujianwen.com">Goujianwen.com</a>.</p>
             </div>
             <div id="footer">
                 &copy; 2018-2019 <a href="https://Goujianwen.com">Goujianwen.com</a> | All Rights Reserved.</p>
             </div>
         </div>
     </div>
-    <script>
-        loadlive2d("moe","https://Goujianwen.com/lib/live2d/moe/model.json")
-    </script> 
 </body>
 </html>
