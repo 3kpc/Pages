@@ -4,6 +4,7 @@ User-agent: *
 Disallow: /README.md
 Disallow: /CNAME
 Disallow: /lib/
+Disallow: /archives/
 
 Disallow: /blog/css/
 Disallow: /blog/images/
