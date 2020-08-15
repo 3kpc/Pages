@@ -1,1 +1,167 @@
-COMING SOON.
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="theme-color" content="#4286f3">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+    <!-- Handheld --> 
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Open Graph --> 
+    <meta property="og:locale" content="zh_CN"> 
+    <meta property="og:type" content="article"> 
+    <meta property="og:title" content="Goujianwen"> 
+    <meta property="og:url" content="https://Goujianwen.com"> 
+    <meta property="og:site_name" content="Goujianwen"> 
+    <meta property="og:image" content="https://Goujianwen.com/images/apple-touch-icon.png"> 
+    <title>Goujianwen</title>
+    <meta name="description" content="Goujianwen | Pages, A personal website that shared some posts, design and others.">  
+    <link rel="canonical" href="https://Goujianwen.com">
+    <!-- Favicons --> 
+    <link rel="apple-touch-icon" sizes="180x180" href="https://Goujianwen.com/lib/images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="https://Goujianwen.com/lib/images/favicon-32x32.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="https://Goujianwen.com/lib/images/favicon-16x16.png">
+    <link rel="mask-icon" href="https://Goujianwen.com/lib/images/apple-touch-icon.png" color="#4286f3">
+    <!-- CSS --> 
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        *::selection {
+            background-color: #4286f3;
+            color: #fff
+        }
+
+        body {
+            background-color: #fff;
+            color: #222;
+            font-size: 14px
+        }
+
+        a:hover {
+            color: #4286f3;
+        }
+
+        @media screen and (min-width:720px) {
+            #container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                text-align: center
+            }
+        }
+
+        @media screen and (max-width:720px) {
+            #container {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translate(0,-50%);
+                -ms-transform: translate(0,-50%);
+                -moz-transform: translate(0,-50%);
+                -webkit-transform: translate(0,-50%);
+                -o-transform: translate(0,-50%);
+                text-align: center
+            }
+
+            body {
+                font-size: 12px;
+            }
+        }
+
+        #banner {
+            margin: 1em
+        }
+
+        #header {
+            margin-bottom: 1em;
+            font-size: 1em
+        }
+
+        #header>a {
+            text-decoration: none
+        }
+
+        .logo {
+            font-size: 1.6em;
+            color: #222
+        }
+
+        .logo-img {
+            margin-right: 0.4em;
+            margin-bottom: -0.4em;
+            width: 1.6em;
+            height: 1.6em
+        }
+
+        #content {
+            margin-bottom: 1em;
+            color: #222
+        }
+
+        .social-link {
+            padding: 0 .4em;
+            text-decoration: none;
+            font-size: 2em;
+            color: #888
+        }
+
+        #content>a:hover {
+            color: #4286f3
+        }
+
+        #footer {
+            font-size: 1em
+        }
+
+        #footer>a {
+            text-decoration: none;
+            color: #222
+        }
+
+        #footer>a:hover {
+            color: #4286f3;
+        }
+
+    </style>
+    <!-- JavaScript-->
+    <script src="https://Goujianwen.com/lib/live2d/moe/l2d.js"></script>
+</head> 
+<body>
+    <div id="container">
+        <div id="midcen">
+            <canvas id="moe" width="240" height="300"></canvas>
+        </div>
+        <div id="banner">
+            <div id="header">
+                <a href="https://Goujianwen.com" title="Goujianwen">
+                    <span class="logo"><img class="logo-img" src="https://Goujianwen.com/lib/images/apple-touch-icon.png">Goujianwen</span>
+                </a>
+            </div>
+            <div id="content">
+                <a class="social-link" href="https://Goujianwen.com/blog" title="Posts"><i class="fa fa-fw fa-folder-open-o"></i></a>
+                <a class="social-link" href="https://Goujianwen.com/archives" title="Archives"><i class="fa fa-fw fa-archive"></i></a>
+                <a class="social-link" href="https://Goujianwen.com/timeline" title="TimeLine"><i class="fa fa-fw fa-list-ul"></i></a>
+                <a class="social-link" href="https://Goujianwen.com/about" title="About"><i class="fa fa-fw fa-user-o"></i></a>
+                <a class="social-link" rel="nofollow" target="_blank" href="https://GitHub.com/Goujianwen" title="GitHub"><i class="fa fa-fw fa-github-alt"></i></a>
+            </div>
+            <div id="footer">
+                &copy; 2018-2019 <a href="https://Goujianwen.com">Goujianwen.com</a> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        loadlive2d("moe","https://Goujianwen.com/lib/live2d/moe/model.json")
+    </script> 
+</body>
+</html>
